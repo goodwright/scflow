@@ -1,0 +1,35 @@
+{
+    "inputs": {
+        "options": {
+            "name": "Options",
+            "description": "Parameters relating to the execution.",
+            "advanced": false,
+            "properties": {
+                "manifest": {
+                    "name": "Manifest",
+                    "type": "file",
+                    "pattern": "tsv",
+                    "required": true,
+                    "description": "Sample matrix filepaths."
+                },
+                "input": {
+                    "name": "Samples",
+                    "type": "file",
+                    "pattern": "tsv",
+                    "required": true,
+                    "description": "Samples metadata."
+                },
+                "reddim_genes_yml": {
+                    "name": "Reddim genes",
+                    "type": "file",
+                    "pattern": "yml",
+                    "required": true,
+                    "description": "Optional list of genes of interest in YML format for plotting of gene expression."
+                }
+            }
+        }
+    },
+    "outputs": [
+
+    ]
+}
